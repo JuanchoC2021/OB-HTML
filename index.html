@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+    <title>Ejercicio 02 - Formularios en HTML</title>
 </head>
 <body>
-    <!--Este es mi primer comentario de dos líneas-->
-    <!--Aprendiendo a documentar mi código con OpenBootcamp-->
-    <ul>
-        <li><a>https://www.youtube.com/watch?v=Tom94CYCBiw</a>Cuando Buscar Tu Primer Trabajo Como Programador/a</li>
-        <li><a>https://www.youtube.com/watch?v=9WlkNyIZ5Yo</a>Como Ser Programador Junior (y conseguir trabajo mas rápido)</li>
-        <li><a>https://www.youtube.com/watch?v=baCqmpTMRTY</a>5 cosas de las que me arrepiento como programador</li>
-    </ul>
+    <form action="/">
+        <div>
+            <label for="nombredeusuario">Nombre de usuario</label>
+            <input name="nombredeusuario" id="nombredeusuario">
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario"></textarea>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Envio</button>
+        </div>
+    </form>
 </body>
 </html>
